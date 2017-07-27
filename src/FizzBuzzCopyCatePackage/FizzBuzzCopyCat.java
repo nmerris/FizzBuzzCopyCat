@@ -36,7 +36,7 @@ public class FizzBuzzCopyCat {
 				output += "Cat";
 			}
 			if(output == "") { // not a multiple of 2, 3, 5, or 10
-				output += i;
+				output += Integer.toString(i);
 			}
 //			System.out.println(i + ": " + output);
 			System.out.println(output);
