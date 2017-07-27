@@ -2,15 +2,15 @@ package FizzBuzzCopyCatePackage;
 
 public class FizzBuzzCopyCat {
 	/**
-	 * this program displays numbers between 1 and 100
-	 * if it's a multiple of 2, display 'Copy' instead of the number
-	 * if it's a multiple of 3, display 'Fizz' instead of the number
-	 * if it's a multiple of 5, display 'Buzz' instead of the number
-	 * if it's a multiple of 10, display 'Cat' instead of the number
-	 * any number that is a multiple of more than one case above,
-	 * then output all corresponding words in series, instead of the number
-	 * For example, 10 will output "CopyBuzzCat"
-	 * For example, 6 will output "CopyFizz"
+	 * This program displays numbers between 1 and 100.
+	 * If it's a multiple of 2, display 'Copy' instead of the number.
+	 * If it's a multiple of 3, display 'Fizz' instead of the number.
+	 * If it's a multiple of 5, display 'Buzz' instead of the number.
+	 * If it's a multiple of 10, display 'Cat' instead of the number.
+	 * Any number that is a multiple of more than one case above,
+	 * Then output all corresponding words in series, instead of the number.
+	 * For example, 10 will output "CopyBuzzCat".
+	 * For example, 6 will output "CopyFizz".
 	 * 
 	 * @author Nathan Merris
 	 *
@@ -18,8 +18,10 @@ public class FizzBuzzCopyCat {
 	
 	public static void main(String[] args) {
 		
+		String output = null; // holds final value to display
+		
 		for(int i = 1; i <= 100; i++) {
-			String output = ""; // start with empty String
+			output = ""; // start with empty String every time
 			
 			if(i % 2 == 0) { // multiple of 2
 				output += "Copy";
